@@ -21,53 +21,26 @@
             }								
         });
     </script>
-    <?php
+<?php
 
-    	$rss = new DOMDocument();
-
-    	$rss->load('http://wordpress.org/news/feed/');
-
-    	$feed = array();
-
-    	foreach ($rss->getElementsByTagName('item') as $node) {
-
-    		$item = array ( 
-
-    			'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
-
-    			'desc' => $node->getElementsByTagName('description')->item(0)->nodeValue,
-
-    			'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
-
-    			'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue,
-
-    			);
-
-    		array_push($feed, $item);
-
-    	}
-
-    	$limit = 5;
-
-    	for($x=0;$x<$limit;$x++) {
-
-    		$title = str_replace(' & ', ' &amp; ', $feed[$x]['title']);
-
-    		$link = $feed[$x]['link'];
-
-    		$description = $feed[$x]['desc'];
-
-    		$date = date('l F d, Y', strtotime($feed[$x]['date']));
-
-    		echo '<p><strong><a href="'.$link.'" title="'.$title.'">'.$title.'</a></strong><br />';
-
-    		echo '<small><em>Posted on '.$date.'</em></small></p>';
-
-    		echo '<p>'.$description.'</p>';
-
-    	}
-
-    ?>
-        <div class="col-md-4"></div>
+require_once('php/autoloader.php');
+$feed = new SimplePie();
+$feed->set_feed_url(array('http://sify.com/rss2/sports/article/category/football'));
+$feed->init();
+$feed->handle_content_type(); ?>
+	<?php
+	
+	foreach ($feed->get_items() as $item):
+	?>
+ 
+		<div class="item">
+		<?php echo '<div class="col-md-4"><div class="panel panel-default"><div class="panel-heading">'; ?>
+			<h2><a href="<?php echo $item->get_permalink(); ?>"><?php echo $item->get_title(); ?></a></h2>
+			<p><small>Posted on <?php echo $item->get_date('j F Y | g:i a'); ?></small></p>
+			<p><?php echo '</div><div class="panel-body">';echo $item->get_description(); echo "</div></div>";?></p>
+			
+		</div>
+ 
+	<?php endforeach; ?>
     </div>
 </div>
