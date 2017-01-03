@@ -30,7 +30,7 @@
 		<!-- <div class="col-md-12 column"> -->
             <div>
                 <center>
-                    <img src="userfiles/avatars/<?php echo $rws['user_avatar'];?>" class="img-responsive profile-avatar">
+                    <img src="userfiles/avatars/<?php echo $rws['user_avatar'];?>" class="img-circle" width="200" height="200">
                 </center>
                 <h1 class="text-center profile-text profile-name"><?php echo $rws['user_firstname'];?> <?php echo $rws['user_lastname'];?></h1>
                 <h2 class="text-center profile-text profile-profession"><?php echo $rws['user_profession'];?></h2>
