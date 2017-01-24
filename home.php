@@ -34,8 +34,8 @@ $feed->handle_content_type(); ?>
 	?>
  
 		<div class="item">
-		<?php echo '<div class="col-md-4"><div class="panel panel-default"><div class="panel-heading">'; ?>
-			<h2><a href="<?php echo $item->get_permalink(); ?>"><?php echo $item->get_title(); ?></a></h2>
+		<?php echo '<div class="col-md-8"><div class="panel panel-default"><div class="panel-heading">'; ?>
+			<h2><img src="https://www.google.com/s2/favicons?domain=http://www.sify.com/" class="img-thumbnail"  width="50" height="50"><a href="<?php echo $item->get_permalink(); ?>"><?php echo $item->get_title(); ?></a></h2>
 			<p><small>Posted on <?php echo $item->get_date('j F Y | g:i a'); ?></small></p>
 			<p><?php echo '</div><div class="panel-body">';echo $item->get_description(); echo "</div></div>";?></p>
 			
