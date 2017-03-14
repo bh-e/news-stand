@@ -36,29 +36,29 @@ echo ' <!DOCTYPE html>
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                     <a href="#">
-                        Start Bootstrap
+                        
                     </a>
                 </li>
                 <li>
-                    <a href="#">Dashboard</a>
+                    <a href="#">Top updates</a>
                 </li>
                 <li>
-                    <a href="#">Shortcuts</a>
+                    <a href="#">Business</a>
                 </li>
                 <li>
-                    <a href="#">Overview</a>
+                    <a href="#">World</a>
                 </li>
                 <li>
-                    <a href="#">Events</a>
+                    <a href="#">Sports</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="#">Technology</a>
                 </li>
                 <li>
-                    <a href="#">Services</a>
+                    <a href="#">Local</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#">Entertainment</a>
                 </li>
             </ul>
         </div>
