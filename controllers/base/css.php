@@ -4,6 +4,8 @@
     <!-- Jasny Bootstrap CSS -->
     <link href="assets/css/jasny-bootstrap/jasny-bootstrap.css" rel="stylesheet">
 
+    <!--side bar-->
+    <link href="assets/css/bootstrap/simple-sidebar.css" rel="stylesheet">
     <!-- Bootstrap Form Helpers CSS -->
     <link href="assets/css/bootstrap-form-helpers/bootstrap-formhelpers.css" rel="stylesheet">  
 
@@ -18,3 +20,5 @@
 
     <!-- Custom styles for this template -->
     <link href="assets/css/base/main.css" rel="stylesheet">
+
+
