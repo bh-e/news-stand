@@ -8,4 +8,4 @@ php:
   - hhvm
   - nightly
 
-script: php home.php
+script: php home.php index.php
