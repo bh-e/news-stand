@@ -6,10 +6,37 @@
     $rws = mysqli_fetch_array($result);
 ?>
     <div class="col-md-6">
-        <div class="form-group float-label-control">
-            <label for="">Short Bio</label>
-            <textarea class="form-control" placeholder="<?php echo $rws['user_shortbio'];?>" rows="10" placeholder="<?php echo $rws['user_shortbio'];?>" name="user_shortbio" value="<?php echo $rws['user_shortbio'];?>"><?php echo $rws['user_shortbio'];?></textarea>
-        </div>
+        <u>Select the categories</u><br>
+   
+    <table>
+
+    <tr><td><input type="checkbox" name="cb" value="cb1"> Business</td></tr>
+
+     <tr><td></td></tr>
+
+    <tr><td><input type="checkbox" name="cb" value="cb2"> Sport</td></tr>
+
+    <tr><td></td></tr>
+
+    <tr><td><input type="checkbox" name="cb" value="cb3"> World</td></tr>
+
+    <tr><td></td></tr>
+
+    <tr><td><input type="checkbox" name="cb" value="cb4"> Entertainment</td></tr>
+
+    <tr><td></td></tr>
+
+    <tr><td><input type="checkbox" name="cb" value="cb5"> Technology</td></tr>
+
+    <tr><td></td></tr>
+
+    <tr><td><input type="checkbox" name="cb" value="cb6"> Health&Fitness </td></tr>
+
+    <tr><td></td></tr>
+
+<tr><td><input type="checkbox" name="cb1" value="Radio 6"> Fashion </td></tr>
+</ul>
+</table>
     </div>    
     <div class="col-md-6">
         <div class="form-group float-label-control">

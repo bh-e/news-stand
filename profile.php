@@ -46,7 +46,7 @@
     if ($rws['user_shortbio']){
 ?>   
                                     <div class="col-md-4">
-                                        <p class="profile-details"><i class="fa fa-info"></i> Bio</p>
+                                        <p class="profile-details"><i class="fa fa-info"></i> K</p>
                                     </div>
                                     <div class="col-md-8">
                                         <p><?php echo $rws['user_shortbio'];?></p>

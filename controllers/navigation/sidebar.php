@@ -1,15 +1,12 @@
 <?php echo ' <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                    <a href="#">
-                        Start Bootstrap
-                    </a>
                 </li>
                 <li>
-                    <a href="#">Top updates</a>
+                    <a href="">Top updates</a>
                 </li>
                 <li>
-                    <a href="#">Business</a>
+                    <a href="http://localhost/news-stand/home.php?req=business">Business</a>
                 </li>
                 <li>
                     <a href="#">World</a>

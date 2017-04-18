@@ -23,7 +23,7 @@
                             <div class="form-group">
                                 <div class="input-group">
                                     <span class="input-group-addon">
-                                        <!-- http://<?php echo $rws['domain_websiteaddress'];?>/user_username= --> know.me/
+                                        <!-- http://<?php echo $rws['domain_websiteaddress'];?>/user_username= --> 
                                     </span>
                                     <input type="username" class="form-control input-lg" placeholder="username" name="user_username" id="user_username" required> 
                                     <span class="input-group-addon" id="status"></span>
