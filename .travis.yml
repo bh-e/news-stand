@@ -8,4 +8,4 @@ php:
   - hhvm
   - nightly
 
-script: phpunit home.php
+script: php home.php
