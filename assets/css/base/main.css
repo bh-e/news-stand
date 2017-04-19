@@ -304,6 +304,12 @@ footer {
      width:  100%; 
 }
 
+.rss_item_desc  img{
+
+float:left;width:370px;height:350px;clear: left;padding-left: 10px;
+
+ }
+
 .well .masonry  {
      position:relative;
      display: block;

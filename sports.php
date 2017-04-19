@@ -35,7 +35,7 @@
 
 require_once('php/autoloader.php');
 $feed = new SimplePie();
-$feed->set_feed_url(array('http://feeds.cfr.org/net_politics'));
+$feed->set_feed_url(array($sports));
 // http://www.rssmicro.com/feeds/images.rss','http://zeenews.india.com/malayalam/movies.xml
 $feed->init();
 $feed->handle_content_type(); ?>
@@ -45,7 +45,7 @@ $feed->handle_content_type(); ?>
 	?>
  
 		<div class="rss_item_desc" style="padding-left:240px;">
-		<?php echo '<div class="col-xs-6 col-sm-3 sid"><div class="panel panel-default"><div class="panel-heading">'; ?>
+		<?php echo '<div class="col-md-9"><div class="panel panel-default"><div class="panel-heading">'; ?>
 			<h2><a href="<?php echo $item->get_permalink();  ?>"><?php echo $item->get_title(); ?></a></h2>
 			<p><small>Posted on <?php echo $item->get_date('j F Y | g:i a'); ?></small></p>
 			<p><?php echo '</div><div class="panel-body">';echo $item->get_description(); echo "</div><a href='#'><span class='glyphicon glyphicon-thumbs-up'></a>  <span class='glyphicon glyphicon-thumbs-down'></span></div></div>";?></p>
@@ -55,4 +55,3 @@ $feed->handle_content_type(); ?>
 	<?php endforeach; ?>
     </div>
 </div>
-
