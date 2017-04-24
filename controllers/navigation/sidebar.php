@@ -6,22 +6,25 @@
                     <a href="">Top updates</a>
                 </li>
                 <li>
-                    <a href="http://localhost/news-stand/business.php">Business</a>
+                    <a href="business.php">Business</a>
                 </li>
                 <li>
-                    <a href="http://localhost/news-stand/world.php">World</a>
+                    <a href="world.php">World</a>
                 </li>
                 <li>
-                    <a href="http://localhost/news-stand/sports.php">Sports</a>
+                    <a href="sports.php">Sports</a>
                 </li>
                 <li>
-                    <a href="http://localhost/news-stand/tech.php">Technology</a>
+                    <a href="tech.php">Technology</a>
                 </li>
                 <li>
-                    <a href="http://localhost/news-stand/home.php">Local</a>
+                    <a href="home.php">Local</a>
                 </li>
                 <li>
-                    <a href="http://localhost/news-stand/entertainment.php">Entertainment</a>
+                    <a href="entertainment.php">Entertainment</a>
+                </li>
+		<li>
+                    <a href="fashion.php">LifeStyle</a>
                 </li>
             </ul>
         </div> ' ;?>  

@@ -48,7 +48,7 @@ $feed->handle_content_type(); ?>
 		<?php echo '<div class="col-md-8"><div class="panel panel-default"><div class="panel-heading">'; ?>
 			<h2><a href="<?php echo $item->get_permalink();  ?>"><?php echo $item->get_title(); ?></a></h2>
 			<p><small>Posted on <?php echo $item->get_date('j F Y | g:i a'); ?></small></p>
-			<p><?php echo '</div><div class="panel-body">';echo $item->get_description(); ?></p>
+			<p><?php echo '</div><div class="panel-body">';echo $item->get_description();echo "</div><a href='#'><span class='glyphicon glyphicon-thumbs-up'></a>  <span class='glyphicon glyphicon-thumbs-down'></span></div></div>" ?></p>
 			
 		</div>
  

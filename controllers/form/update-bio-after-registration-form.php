@@ -10,38 +10,40 @@
    
     <table>
 
-    <tr><td><input type="checkbox" name="cb" value="cb1"> Business</td></tr>
+    <tr><td><input type="checkbox" name="ab" value="b1"> Business</td></tr>
 
      <tr><td></td></tr>
 
-    <tr><td><input type="checkbox" name="cb" value="cb2"> Sport</td></tr>
+    <tr><td><input type="checkbox" name="bb" value="s2"> Sport</td></tr>
 
     <tr><td></td></tr>
 
-    <tr><td><input type="checkbox" name="cb" value="cb3"> World</td></tr>
+    <tr><td><input type="checkbox" name="cb" value="w3"> World</td></tr>
 
     <tr><td></td></tr>
 
-    <tr><td><input type="checkbox" name="cb" value="cb4"> Entertainment</td></tr>
+    <tr><td><input type="checkbox" name="db" value="e4"> Entertainment</td></tr>
 
     <tr><td></td></tr>
 
-    <tr><td><input type="checkbox" name="cb" value="cb5"> Technology</td></tr>
+    <tr><td><input type="checkbox" name="eb" value="t5"> Technology</td></tr>
 
     <tr><td></td></tr>
 
-    <tr><td><input type="checkbox" name="cb" value="cb6"> Health&Fitness </td></tr>
+    <tr><td><input type="checkbox" name="fb" value="h6"> Health&Fitness </td></tr>
 
     <tr><td></td></tr>
 
-<tr><td><input type="checkbox" name="cb1" value="Radio 6"> Fashion </td></tr>
+<tr><td><input type="checkbox" name="gb" value="cb7"> Lifestyle </td></tr>
 </ul>
 </table>
     </div>    
     <div class="col-md-6">
         <div class="form-group float-label-control">
-            <label for="">Birthday</label>   
-            <input type="date" class="form-control" placeholder="<?php echo $rws['user_dob'];?>" name="user_dob" value="<?php echo $rws['user_dob'];?>" required>
+            <label for="">Or you can add your preferred RSS feed URL </label>   
+            <input type="date" class="form-control" name="user_dob1"><br>
+<input type="date" class="form-control"  name="user_dob2" ><br>
+<input type="date" class="form-control"  name="user_dob3" ><br>
         </div>
     </div>          
 <?php
